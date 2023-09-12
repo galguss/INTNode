@@ -24,24 +24,24 @@ The **INTNode** library provides a simple implementation of a singly linked list
 #include <INTNode.h>
 ```
 
-### Getting and Setting Values
+### Setting the top of the list
 ```cpp
 INTNode* node = new INTNode(42, NULL);
 ```
 
-### Getting and Setting the Next Node
+### Getting and Setting Values
 ```cpp
 int value = node->GetVal();
 node->SetVal(99);
 ```
 
-### Checking for the Next Node
+### Getting and Setting the Next Node
 ```cpp
 INTNode* nextNode = node->GetNext();
 node->SetNext(anotherNode);
 ```
 
-### Checks if the next node exists
+### Checking for the Next Node
 ```cpp
 bool hasNext = node->hasNext();
 ```
